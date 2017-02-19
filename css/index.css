@@ -8,17 +8,27 @@ h6 {
   color: white;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 5vw;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
 #introduction {
   z-index: 2;
   position: relative;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 4em;
-}
-
 #introduction h1 {
   font-weight: 800;
-  font-size: 7em;
+  font-size: 9vw;
 }

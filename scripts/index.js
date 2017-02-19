@@ -4,6 +4,7 @@ $(document).ready(function() {
     sectionsColor: ['#000000', '#27ae60', '#3498db', '#34495e', '#9b59b6', '#e74c3c', '#e67e22', '#16a085'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['', 'Annoucements', 'About Us', 'Projects', 'Calendar', 'Resources', 'Contact Us', '']
+    navigationTooltips: ['', 'Annoucements', 'About Us', 'Projects', 'Calendar', 'Resources', 'Contact Us', ''],
+    scrollOverflow: true
   });
 });
