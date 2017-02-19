@@ -5,12 +5,17 @@ h4,
 h5,
 h6 {
   font-family: 'Muli', sans-serif;
+  color: white;
 }
 
 #introduction {
   z-index: 2;
   position: relative;
-  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4em;
 }
 
 #introduction h1 {
