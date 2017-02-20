@@ -8,6 +8,10 @@ h6 {
   color: white;
 }
 
+a {
+  font-style: italic;
+}
+
 h1 {
   font-weight: 700;
   font-size: 4vw;
