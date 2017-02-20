@@ -8,8 +8,27 @@ h6 {
   color: white;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+a {
+  font-style: italic;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
 i {
   color: white;
+}
+
+.bold {
+  font-weight: 800;
 }
 
 .start {
@@ -18,25 +37,6 @@ i {
 
 .end {
   margin-bottom: 20px;
-}
-
-a {
-  font-style: italic;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 4vw;
-}
-
-.bold {
-  font-weight: 800;
-}
-
-img {
-  width: 20%;
-  height: auto;
-  border-radius: 50%;
 }
 
 #introduction {
