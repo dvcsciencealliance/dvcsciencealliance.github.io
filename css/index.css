@@ -10,7 +10,7 @@ h6 {
 
 h1 {
   font-weight: 700;
-  font-size: 4vw;
+  font-size: calc(12px + 3.5vw)
 }
 
 a {
