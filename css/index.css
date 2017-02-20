@@ -8,6 +8,18 @@ h6 {
   color: white;
 }
 
+i {
+  color: white;
+}
+
+.start {
+  margin-top: 20px;
+}
+
+.end {
+  margin-bottom: 20px;
+}
+
 a {
   font-style: italic;
 }
