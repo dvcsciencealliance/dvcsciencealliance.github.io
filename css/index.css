@@ -27,6 +27,11 @@ i {
   color: white;
 }
 
+iframe {
+  width: 70vw;
+  height: 70vh;
+}
+
 .bold {
   font-weight: 800;
 }
