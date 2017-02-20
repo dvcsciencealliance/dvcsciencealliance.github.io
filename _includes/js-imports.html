@@ -1,0 +1,8 @@
+<script src="https://use.fontawesome.com/09fb527af5.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/vendors/scrolloverflow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/foundation.min.js"></script>
+{% for js in page.js %}
+<script src="{{ site.baseurl }}/scripts/{{ js }}.js"></script>
+{% endfor %}

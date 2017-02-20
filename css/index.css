@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Muli', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+a {
+  font-style: italic;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+i {
+  color: white;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.start {
+  margin-top: 20px;
+}
+
+.end {
+  margin-bottom: 20px;
+}
+
+#introduction {
+  z-index: 2;
+  position: relative;
+}
+
+#introduction h1 {
+  font-weight: 800;
+  font-size: 9vw;
+}

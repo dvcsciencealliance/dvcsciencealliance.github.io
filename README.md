@@ -1,2 +1,2 @@
 # dvcsciencealliance.github.io
-DVC Science Alliance website (to be hosted at dvcsciencealliance.org)
+DVC Science Alliance website (hosted at dvcsciencealliance.org)
