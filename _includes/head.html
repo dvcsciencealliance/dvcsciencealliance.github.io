@@ -4,18 +4,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ site.description }}">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./images/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./images/apple-touch-icon-152x152.png">
-  <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16">
+  <link rel="canonical" href="{{ site.url }}/">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}{{ site.baseurl }}/images/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.url }}{{ site.baseurl }}/images/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/images/favicon-16x16.png" sizes="16x16">
   <meta name="application-name" content="DVC Science Alliance">
   <meta name="msapplication-TileColor" content="#27AE5F">
-  <meta name="msapplication-TileImage" content="./images/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="{{ site.url }}{{ site.baseurl }}/images/mstile-144x144.png">
 
   <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.css">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/foundation.min.css">
-  {% for css in page.css %}
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/{{ css }}.css">
-  {% endfor %}
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/foundation.min.css">
+  {% for css in page.css %}<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/{{ css }}.css">{% endfor %}
+
+  <script async src="https://use.fontawesome.com/09fb527af5.js"></script>
+  <script async src="{{ site.url}}{{ site.baseurl }}/scripts/foundation.min.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/vendors/scrolloverflow.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>
+  {% for js in page.js %}<script defer src="{{ site.url}}{{ site.baseurl }}/scripts/{{ js }}.js"></script>{% endfor %}
 </head>
