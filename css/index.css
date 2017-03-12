@@ -10,11 +10,15 @@ h6 {
 
 h1 {
   font-weight: 700;
-  font-size: calc(12px + 3.5vw)
+  font-size: 36px
 }
 
-a {
+a,
+a:hover,
+a:active,
+a:visited {
   font-style: italic;
+  color: white;
 }
 
 img {
@@ -28,8 +32,8 @@ i {
 }
 
 iframe {
-  width: 70vw;
-  height: 70vh;
+  width: 80vw;
+  height: 80vh;
 }
 
 .bold {
@@ -44,6 +48,18 @@ iframe {
   margin-bottom: 20px;
 }
 
+.fp-controlArrow {
+  margin-top: -15px;
+}
+
+.fp-controlArrow.fp-prev {
+  border-width: 18px 15px 18px 0;
+}
+
+.fp-controlArrow.fp-next {
+  border-width: 18px 0px 18px 15px;
+}
+
 #introduction {
   z-index: 2;
   position: relative;
@@ -51,4 +67,27 @@ iframe {
 
 #introduction h1 {
   font-size: 9vw;
+}
+
+@media (min-width: 640px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  iframe {
+    width: 70vw;
+    height: 70vh;
+  }
+
+  .fp-controlArrow {
+    margin-top: -38px;
+  }
+
+  .fp-controlArrow.fp-prev {
+    border-width: 38.5px 34px 38.5px 0;
+  }
+
+  .fp-controlArrow.fp-next {
+    border-width: 38.5px 0 38.5px 34px;
+  }
 }
