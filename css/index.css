@@ -54,10 +54,12 @@ iframe {
 
 .fp-controlArrow.fp-prev {
   border-width: 18px 15px 18px 0;
+  left: 5px;
 }
 
 .fp-controlArrow.fp-next {
   border-width: 18px 0px 18px 15px;
+  right: 5px;
 }
 
 #introduction {
@@ -81,10 +83,12 @@ iframe {
 
   .fp-controlArrow.fp-prev {
     border-width: 38.5px 34px 38.5px 0;
+    left: 15px;
   }
 
   .fp-controlArrow.fp-next {
     border-width: 38.5px 0 38.5px 34px;
+    right: 15px;
   }
 
   #introduction h1 {
