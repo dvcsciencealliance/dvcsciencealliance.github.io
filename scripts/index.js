@@ -2,6 +2,7 @@ $(document).ready(function() {
   $('#year').html(new Date().getFullYear());
   $('#fullpage').fullpage({
     anchors: ['top', 'announcements', 'about-us', 'undertakings', 'calendar', 'resources', 'executive-board', 'bottom'],
+    scrollingSpeed: 500,
     loopHorizontal: false,
     scrollOverflow: true,
     recordHistory: false,
